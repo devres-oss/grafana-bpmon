@@ -632,7 +632,7 @@
         },
         "showAdvancedTypes": false
       },
-      "pluginVersion": "10.1.0-pre",
+      "pluginVersion": "10.1-bpmon",
       "targets": [
         {
           "csvContent": "gateway, product-details, product-reviews, reviews-ratings, details-checkout\n100, 56, 44, 22, 28",
@@ -1400,7 +1400,7 @@
         },
         "showAdvancedTypes": false
       },
-      "pluginVersion": "10.1.0-pre",
+      "pluginVersion": "10.1-bpmon",
       "targets": [
         {
           "csvContent": "database_server, server_database, server_region, region_server, database2_server, server_database2\n10, 53, 35, 12, 22, 81",
