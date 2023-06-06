@@ -1,0 +1,636 @@
+{
+  "_comment": "Do not manually edit this file, or update these source phrases in Crowdin. The source of truth for English strings are in the code source",
+  "clipboard-button": {
+    "inline-toast": {
+      "success": "Скопировано!"
+    }
+  },
+  "command-palette": {
+    "action": {
+      "change-theme": "Изменить тему...",
+      "dark-theme": "Тёмная",
+      "light-theme": "Светлая"
+    },
+    "search-box": {
+      "placeholder": "Искать или перейти к..."
+    },
+    "section": {
+      "actions": "Действия",
+      "dashboard-search-results": "Дашборды",
+      "folder-search-results": "Папки",
+      "pages": "Страницы",
+      "preferences": "Настройки",
+      "recent-dashboards": "Недавнее"
+    }
+  },
+  "common": {
+    "locale": {
+      "default": "Default"
+    },
+    "save": "Сохранить"
+  },
+  "dashboard": {
+    "add-menu": {
+      "import": "Импорт из Библиотеки",
+      "paste-panel": "Вставить панель",
+      "row": "Раздел",
+      "visualization": "Панель визуализации"
+    },
+    "empty": {
+      "add-import-body": "Используйте общие панели из Библиотеки панелей для вашего дашборда.",
+      "add-import-button": "Импорт панели из Библиотеки",
+      "add-import-header": "Импортируйте панели",
+      "add-row-body": "Группируйте панели в расширяемые секции.",
+      "add-row-button": "Добавить раздел",
+      "add-row-header": "Добавляйте разделы",
+      "add-visualization-body": "Выберите источник данных и визуализируйте свои данные с помощью графиков, статистики, таблиц и других виджетов.",
+      "add-visualization-button": "Добавить панель",
+      "add-visualization-header": "Добавьте панель визуализации для своего нового дашборда"
+    },
+    "inspect": {
+      "data-tab": "Данные",
+      "error-tab": "Ошибка",
+      "json-tab": "JSON",
+      "meta-tab": "Метаданные",
+      "query-tab": "Запросы",
+      "stats-tab": "Статистика",
+      "subtitle": "{{queryCount}} запросов, время выполнения - {{formatted}}",
+      "title": "Техническая справка: {{panelTitle}}"
+    },
+    "inspect-data": {
+      "data-options": "Параметры данных",
+      "dataframe-aria-label": "Выбрать ячейки данных",
+      "dataframe-label": "Показать ячейки данных",
+      "download-csv": "Скачать CSV",
+      "download-excel-description": "Добавить заголовок в CSV для работы с Excel",
+      "download-excel-label": "Загрузка для Excel",
+      "download-logs": "Download logs",
+      "download-service": "Download service graph",
+      "download-traces": "Download traces",
+      "excel-header": "Заголовок Excel",
+      "formatted": "Форматирование данных",
+      "formatted-data-description": "Отформатировать табличные данные исходя из параметров, указанных во вкладках Поле и Переопределение.",
+      "formatted-data-label": "Форматирование данных",
+      "panel-transforms": "Преобразования панели",
+      "series-to-columns": "Series joined by time",
+      "transformation": "Series joined by time",
+      "transformations-description": "Отображать данные с учетом трансформации.",
+      "transformations-label": "Применить трансформацию панелей"
+    },
+    "inspect-json": {
+      "dataframe-description": "Необработанные данные без применения настроек транформации. ",
+      "dataframe-label": "Ячейка данных JSON (из Запроса)",
+      "panel-data-description": "Необработанная модель, переданная в панель визуализации",
+      "panel-data-label": "Панель ",
+      "panel-json-description": "Модель сохраняется в дашборде JSON, который определяет, как всё будет работать,",
+      "panel-json-label": "Панель JSON",
+      "select-source": "Выбрать источник",
+      "unknown": "Неизвестный Объект: {{show}}"
+    },
+    "inspect-meta": {
+      "no-inspector": "No Metadata Inspector"
+    },
+    "inspect-stats": {
+      "data-title": "Статистика источников данных",
+      "data-traceids": "Отследить ID",
+      "processing-time": "Время обработки данных",
+      "queries": "Число запросов",
+      "request-time": "Время выполнения запросов",
+      "rows": "Общее число строк",
+      "table-title": "Статистика"
+    },
+    "toolbar": {
+      "add": "Добавить",
+      "add-panel": "Добавить панель",
+      "mark-favorite": "Добавить в избранное",
+      "open-original": "Открыть исходный дашборд",
+      "playlist-next": "Перейти к следующему дашборду",
+      "playlist-previous": "Перейти к предыдущему дашборду",
+      "playlist-stop": "Остановить плейлист",
+      "refresh": "Обновить",
+      "save": "Сохранить",
+      "settings": "Настройки дашборда",
+      "share": "Поделиться дашбордом или панелью",
+      "unmark-favorite": "Удалить из избранного"
+    }
+  },
+  "folder-picker": {
+    "loading": "Загрузка папок..."
+  },
+  "grafana-ui": {
+    "segment-async": {
+      "error": "Не получилось загрузить варианты",
+      "loading": "Загрузка...",
+      "no-options": "Не найдено"
+    }
+  },
+  "library-panel": {
+    "add-modal": {
+      "cancel": "Отмена",
+      "create": "Добавить панель",
+      "error": "В Библиотеке уже есть панель с этим именем",
+      "folder": "Сохранить в папку",
+      "folder-description": "Разрешения Библиотеки панелей исходят из разрешений папки",
+      "name": "Наименование панели"
+    },
+    "add-widget": {
+      "title": "Добавить панель из Библиотеки"
+    }
+  },
+  "library-panels": {
+    "save": {
+      "error": "Ошибка при сохранении панели: \"{{errorMsg}}\"",
+      "success": "Панель была добавлена в Библиотеку"
+    }
+  },
+  "nav": {
+    "admin": {
+      "subtitle": "Manage server-wide settings and access to resources such as organizations, users, and licenses",
+      "title": "Server admin"
+    },
+    "alerting": {
+      "subtitle": "Узнавайте о проблемах в ваших системах мгновенно",
+      "title": "Алерты"
+    },
+    "alerting-admin": {
+      "title": "Менеджер алертов"
+    },
+    "alerting-am-routes": {
+      "subtitle": "Определите, как алерты будут достигать контактных лиц",
+      "title": "Политика уведомлений"
+    },
+    "alerting-channels": {
+      "title": "Notification channels"
+    },
+    "alerting-groups": {
+      "subtitle": "See grouped alerts from an Alertmanager instance",
+      "title": "Группы"
+    },
+    "alerting-home": {
+      "title": "Home"
+    },
+    "alerting-legacy": {
+      "title": "Alerting (legacy)"
+    },
+    "alerting-list": {
+      "subtitle": "Правила, определяющие запуск алертов",
+      "title": "Правила алертов"
+    },
+    "alerting-receivers": {
+      "subtitle": "Выберите, как уведомлять  контактные лица при срабатывании алертов",
+      "title": "Контактные лица"
+    },
+    "alerting-silences": {
+      "subtitle": "Отключите уведомления от одного или нескольких правил",
+      "title": "Заглушки"
+    },
+    "alerts-and-incidents": {
+      "subtitle": "Alerting and incident management apps",
+      "title": "Alerts & IRM"
+    },
+    "api-keys": {
+      "subtitle": "Manage and create API keys that are used to interact with Grafana HTTP APIs",
+      "title": "API keys"
+    },
+    "apps": {
+      "subtitle": "App plugins that extend the Grafana experience",
+      "title": "Apps"
+    },
+    "config": {
+      "title": "Администрирование"
+    },
+    "correlations": {
+      "subtitle": "Add and configure correlations",
+      "title": "Correlations"
+    },
+    "create": {
+      "title": "Создать"
+    },
+    "create-alert": {
+      "title": "Новое правило алерта"
+    },
+    "create-dashboard": {
+      "title": "Дашборд"
+    },
+    "create-folder": {
+      "title": "Папка"
+    },
+    "create-import": {
+      "title": "Импорт дашборда"
+    },
+    "dashboards": {
+      "subtitle": "Создавайте дашборды и управляйте ими",
+      "title": "Дашборды"
+    },
+    "datasources": {
+      "subtitle": "Добавляйте и настраивайте источники данных",
+      "title": "Источники данных"
+    },
+    "explore": {
+      "title": "Обзор"
+    },
+    "global-orgs": {
+      "subtitle": "Отдельные сущности Grafana, запущенные на одном сервере",
+      "title": "Организации"
+    },
+    "global-users": {
+      "subtitle": "Управляйте пользователями в Grafana",
+      "title": "Пользователи"
+    },
+    "help": {
+      "title": "Справка"
+    },
+    "help/community": "Сообщество",
+    "help/documentation": "Документация",
+    "help/keyboard-shortcuts": "Горячие клавиши",
+    "help/support": "Поддержка",
+    "home": {
+      "title": "Главная"
+    },
+    "library-panels": {
+      "subtitle": "Повторно используемые панели, которые можно добавить к нескольким дашбордам.",
+      "title": "Библиотека панелей"
+    },
+    "manage-folder": {
+      "subtitle": "Manage folder dashboards and permissions"
+    },
+    "monitoring": {
+      "subtitle": "Monitoring and infrastructure apps",
+      "title": "Observability"
+    },
+    "new": {
+      "title": "Создать"
+    },
+    "new-dashboard": {
+      "title": "Новый дашборд"
+    },
+    "new-folder": {
+      "title": "Новая папка"
+    },
+    "org-settings": {
+      "subtitle": "Управляйте настройками для вашей организации",
+      "title": "Настройки по умолчанию"
+    },
+    "playlists": {
+      "subtitle": "Группы дашбордов, отображаемые в последовательности",
+      "title": "Плейлисты"
+    },
+    "plugins": {
+      "subtitle": "Дополните ваши возможности в Grafana с помощью расширений",
+      "title": "Расширения"
+    },
+    "profile/notifications": {
+      "title": "Уведомления"
+    },
+    "profile/password": {
+      "title": "Сменить пароль"
+    },
+    "profile/settings": {
+      "title": "Профиль"
+    },
+    "public": {
+      "title": "Публичные дашборды"
+    },
+    "scenes": {
+      "title": "Сцены"
+    },
+    "search": {
+      "placeholderCommandPalette": "Искать или перейти к..."
+    },
+    "search-dashboards": {
+      "title": "Искать дашборды"
+    },
+    "server-settings": {
+      "subtitle": "Просмотр настроек вашей конфигурации Grafana",
+      "title": "Конфигурация Grafana"
+    },
+    "service-accounts": {
+      "subtitle": "Use service accounts to run automated workloads in Grafana",
+      "title": "Сервис аккаунты"
+    },
+    "sign-out": {
+      "title": "Выйти"
+    },
+    "snapshots": {
+      "subtitle": "Зафиксированные в определенный момент времени представления дашбордов",
+      "title": "Снимки"
+    },
+    "starred": {
+      "title": "Избранное"
+    },
+    "starred-empty": {
+      "title": "Ваши избранные дашборды появятся здесь"
+    },
+    "storage": {
+      "subtitle": "Manage file storage",
+      "title": "Storage"
+    },
+    "support-bundles": {
+      "subtitle": "Загружайте пакеты поддержки",
+      "title": "Пакеты поддержки"
+    },
+    "teams": {
+      "subtitle": "Объединяйте в команды пользователей, которым необходимы общие дашборд и разрешения",
+      "title": "Команды"
+    },
+    "upgrading": {
+      "title": "Статистика и лицензия"
+    },
+    "users": {
+      "subtitle": "Приглайшайте пользователей и назначайте им роли",
+      "title": "Пользователи"
+    }
+  },
+  "navigation": {
+    "kiosk": {
+      "tv-alert": "Нажмите ESC для выхода из режима киоска"
+    },
+    "toolbar": {
+      "enable-kiosk": "Включить режим киоска",
+      "toggle-menu": "Свернуть/развернуть меню",
+      "toggle-search-bar": "Свернуть/развернуть строку поиска"
+    }
+  },
+  "news": {
+    "title": "Последнее из блога"
+  },
+  "notifications": {
+    "starred-dashboard": "Дашборд добавлен в избранное",
+    "unstarred-dashboard": "Дашборд удален из избранного"
+  },
+  "panel": {
+    "header-menu": {
+      "copy": "Копировать",
+      "create-library-panel": "Добавить в Библиотеку",
+      "duplicate": "Дублировать",
+      "edit": "Редактировать",
+      "explore": "Обзор",
+      "get-help": "Помощь",
+      "hide-legend": "Скрыть легенду",
+      "inspect": "Тех.справка",
+      "inspect-data": "Данные",
+      "inspect-json": "Панель JSON",
+      "more": "Еще...",
+      "query": "Запросы",
+      "remove": "Удалить",
+      "share": "Поделиться",
+      "show-legend": "Показать легенду",
+      "unlink-library-panel": "Удалить панель из Библиотеки",
+      "view": "Просмотр"
+    }
+  },
+  "refresh-picker": {
+    "aria-label": {
+      "choose-interval": "Auto refresh turned off. Choose refresh time interval",
+      "duration-selected": "Choose refresh time interval with current interval {{durationAriaLabel}} selected"
+    },
+    "live-option": {
+      "aria-label": "Turn on live streaming",
+      "label": "Live"
+    },
+    "off-option": {
+      "aria-label": "Turn off auto refresh",
+      "label": "Off"
+    },
+    "select-button": {
+      "auto-refresh": "Установить интервал автообновления"
+    }
+  },
+  "search": {
+    "actions": {
+      "include-panels": "Включая панели",
+      "remove-datasource-filter": "Источник данных: {{datasource}}",
+      "sort-placeholder": "Сортировать",
+      "starred": "Избранное",
+      "view-as-folders": "В виде папок",
+      "view-as-list": "В виде списка"
+    },
+    "dashboard-actions": {
+      "import": "Импорт",
+      "new": "Создать",
+      "new-dashboard": "Новый дашборд",
+      "new-folder": "Новая папка"
+    },
+    "folder-view": {
+      "go-to-folder": "Перейти в папку",
+      "select-folder": "Выбрать папку"
+    },
+    "result-kind": {
+      "dashboard": "Дашборд",
+      "folder": "Папка",
+      "panel": "Панель"
+    },
+    "results-table": {
+      "datasource-header": "Источник данных",
+      "location-header": "Путь",
+      "name-header": "Наименование",
+      "tags-header": "Метки",
+      "type-dashboard": "Дашборд",
+      "type-folder": "Папка",
+      "type-header": "Тип"
+    },
+    "search-input": {
+      "include-panels-placeholder": "Поиск дашбордов, папок, панелей",
+      "placeholder": "Поиск дашбордов и папок"
+    }
+  },
+  "share-modal": {
+    "dashboard": {
+      "title": "Поделиться"
+    },
+    "embed": {
+      "copy": "Копировать",
+      "html": "Embed HTML",
+      "html-description": "HTML код, приведенный ниже, можно внедрить в другую веб-страницу. Если включен анонимный доступ, пользователь, просматривающий страницу, должен быть зарегистрирован в Grafana - тогда график будет загружен.",
+      "info": "Сгенерируйте HTML для внедрения iframe с этой панелью.",
+      "time-range": "Текущий временной диапазон",
+      "time-range-description": "Преобразовывает текущий относительный диапазон времени в абсолютный"
+    },
+    "export": {
+      "cancel-button": "Отмена",
+      "info-text": "Экспортируйте ваш дашборд.",
+      "save-button": "Сохранить файлом",
+      "share-default-label": "Экспортировать без значений по умолчанию",
+      "share-externally-label": "Экспорт для внешнего обмена",
+      "view-button": "Открыть JSON"
+    },
+    "library": {
+      "info": "Добавить текущую панель в Библиотеку панелей."
+    },
+    "link": {
+      "copy-link-button": "Скопировать",
+      "info-text": "Создайте прямую ссылку на этот дашборд или панель, используя опции ниже.",
+      "link-url": "Ссылка URL",
+      "render-alert": "Image renderer plugin not installed",
+      "render-instructions": "To render a panel image, you must install the&nbsp;<1>Grafana image renderer plugin</1>. Please contact your Grafana administrator to install the plugin.",
+      "rendered-image": "Direct link rendered image",
+      "save-alert": "Дашборд не сохранен",
+      "save-dashboard": "To render a panel image, you must save the dashboard first.",
+      "shorten-url": "Сократить URL",
+      "time-range-description": "Преобразовывает текущий относительный диапазон времени в абсолютный",
+      "time-range-label": "Заблокировать временной диапазон"
+    },
+    "panel": {
+      "title": "Поделиться панелью"
+    },
+    "snapshot": {
+      "cancel-button": "Отмена",
+      "copy-link-button": "Копировать",
+      "delete-button": "Удалить снимок",
+      "deleted-message": "Снимок был удален.",
+      "expire": "Истекает через",
+      "expire-day": "1 день",
+      "expire-hour": "1 час",
+      "expire-never": "Никогда",
+      "expire-week": "7 дней",
+      "info-text-1": "Снимок - это моментальный способ поделиться своим дашбордом публично. При создании мы удаляем конфиденциальные данные, такие как запросы (метрика, шаблон и аннотация) и ссылки на панель, оставляя только видимые данные метрики и имена рядов, встроенные в ваш дашборд.",
+      "info-text-2": "Помните, ваш снимок <1>может быть увиден любым</1>, кто имеет доступ к этой ссылке. Делитесь осторожно.",
+      "local-button": "Локальный снимок",
+      "mistake-message": "Вы совершили ошибку? ",
+      "name": "Наименование снимка",
+      "timeout": "Тайм-аут(секунды)",
+      "timeout-description": "Вам может потребоваться установить значение тайм-аута в случае, если сбор метрик вашего дашборда занимает длительное время.",
+      "url-label": "URL снимка"
+    },
+    "tab-title": {
+      "embed": "Внедрение",
+      "export": "Экспорт",
+      "library-panel": "Библиотека панелей",
+      "link": "URL",
+      "snapshot": "Снимок"
+    },
+    "theme-picker": {
+      "current": "Текущая",
+      "dark": "Тёмная",
+      "field-name": "Тема",
+      "light": "Светлая"
+    },
+    "view-json": {
+      "copy-button": "Скопировать в буфер обмена"
+    }
+  },
+  "shared": {
+    "preferences": {
+      "theme": {
+        "dark-label": "Тёмная",
+        "light-label": "Светлая",
+        "system-label": "Системная"
+      }
+    }
+  },
+  "shared-dashboard": {
+    "fields": {
+      "timezone-label": "Часовой пояс"
+    }
+  },
+  "shared-preferences": {
+    "fields": {
+      "home-dashboard-label": "Главный Дашборд",
+      "home-dashboard-placeholder": "Дашборд по умолчанию",
+      "locale-label": "Язык",
+      "locale-placeholder": "Выберите язык",
+      "theme-label": "UI Тема",
+      "week-start-label": "Начало недели"
+    },
+    "theme": {
+      "default-label": "По умолчанию"
+    },
+    "title": "Настройки системы"
+  },
+  "tag-filter": {
+    "loading": "Загрузка...",
+    "no-tags": "Меток не найдено",
+    "placeholder": "Поиск по метке"
+  },
+  "time-picker": {
+    "absolute": {
+      "recent-title": "Недавно использованные диапазоны",
+      "title": "Абсолютный диапазон времени"
+    },
+    "calendar": {
+      "apply-button": "Применить диапазон",
+      "cancel-button": "Отмена",
+      "select-time": "Выбрать диапазон"
+    },
+    "content": {
+      "empty-recent-list": "<0><0>It looks like you haven&apos;t used this time picker before. As soon as you enter some time intervals, recently used intervals will appear here.</0></0><1><0>Read the documentation</0><1> to find out more about how to enter custom time ranges.</1></1>",
+      "filter-placeholder": "Быстрый поиск"
+    },
+    "footer": {
+      "change-settings-button": "Изменить настройки времени",
+      "fiscal-year-option": "Финансовый год",
+      "fiscal-year-start": "Месяц начала финансового года",
+      "time-zone-option": "Часовой пояс",
+      "time-zone-selection": "Выбор часового пояса"
+    },
+    "range-content": {
+      "apply-button": "Применить диапазон",
+      "default-error": "Введите прошедшую дату или \"now\"",
+      "fiscal-year": "Финансовый год",
+      "from-input": "С",
+      "range-error": "\"From\" не может быть после \"To\"",
+      "to-input": "По"
+    },
+    "range-picker": {
+      "backwards-time-aria-label": "Сдвинуть диапазон назад",
+      "current-time-selected": "Выбранный диапазон: {{currentTimeRange}}",
+      "forwards-time-aria-label": "Сдвинуть диапазон вперед",
+      "to": "по",
+      "zoom-out-button": "Отдалить диапазон",
+      "zoom-out-tooltip": "Отдалить <1></1> CTRL+Z"
+    },
+    "time-range": {
+      "aria-role": "Выбор диапазона",
+      "default-title": "Диапазоны",
+      "example-title": "Примеры диапазонов",
+      "specify": "Уточните диапазон <1></1>"
+    },
+    "zone": {
+      "select-aria-label": "Выбор часового пояса",
+      "select-search-input": "Введите для поиска (страна, город, аббревиатура)"
+    }
+  },
+  "user-orgs": {
+    "current-org-button": "Текущая",
+    "name-column": "Наименование",
+    "role-column": "Роль",
+    "select-org-button": "Выбрать организацию",
+    "title": "Организации"
+  },
+  "user-profile": {
+    "fields": {
+      "email-error": "Необходимо ввести адрес эл.почты!",
+      "email-label": "Электронная почта",
+      "name-error": "Необходимо ввести имя!",
+      "name-label": "Имя",
+      "username-label": "Username"
+    }
+  },
+  "user-session": {
+    "browser-column": "Браузер & ОС",
+    "created-at-column": "Дата входа",
+    "ip-column": "IP адрес",
+    "revoke": "Выход из сессии",
+    "seen-at-column": "Последнее посещение"
+  },
+  "user-sessions": {
+    "loading": "Загрузка сессий..."
+  },
+  "variable": {
+    "adhoc": {
+      "placeholder": "Select value"
+    },
+    "dropdown": {
+      "placeholder": "Enter variable value"
+    },
+    "picker": {
+      "link-all": "All",
+      "option-all": "All",
+      "option-selected-values": "Selected",
+      "option-tooltip": "Clear selections"
+    },
+    "textbox": {
+      "placeholder": "Enter variable value"
+    }
+  }
+}
