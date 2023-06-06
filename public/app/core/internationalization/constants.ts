@@ -6,8 +6,9 @@ export const SPANISH_SPAIN = 'es-ES';
 export const GERMAN_GERMANY = 'de-DE';
 export const CHINESE_SIMPLIFIED = 'zh-Hans';
 export const PSEUDO_LOCALE = 'pseudo-LOCALE';
+export const RUSSIAN_RU = 'ru-RU';
 
-export const DEFAULT_LANGUAGE = ENGLISH_US;
+export const DEFAULT_LANGUAGE = RUSSIAN_RU;
 
 interface LanguageDefinitions {
   /** IETF language tag for the language e.g. en-US */
@@ -25,6 +26,12 @@ export const LANGUAGES: LanguageDefinitions[] = [
     code: ENGLISH_US,
     name: 'English',
     loader: () => Promise.resolve({}),
+  },
+
+  {
+    code: RUSSIAN_RU,
+    name: 'Русский',
+    loader: () => import('../../../locales/ru-RU/grafana.json'),
   },
 
   {
